@@ -1,0 +1,9 @@
+@import url("_police.css");
+
+*{
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lato", Arial, sans-serif;
+}
