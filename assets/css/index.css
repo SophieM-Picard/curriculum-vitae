@@ -1,6 +1,10 @@
 @import url("_police.css");
 
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*RESET CSS*/
     font-family: "Raleway", Arial, sans-serif;
 }
 
