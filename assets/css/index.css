@@ -1,5 +1,6 @@
 @import url("_police.css");
 
+/* ----- GLOBAL ----- */
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,37 @@
     /*RESET CSS*/
     font-family: "Raleway", Arial, sans-serif;
 }
-
+body {     
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 1160px;
+    width: 100%;
+}
 h1, h2, h3 {
     font-family: "Lato", Arial, sans-serif;
+}
+/* ----- HEADER ----- */
+header {
+    background-color: #17abb3;
+    color: #ffffff;
+}
+/* ----- ASIDE ----- */
+aside {
+    background-color: #e3e3e3;
+    color: #333333;
+    width: 35%;
+}
+/* ----- SECTION=CONTENT ----- */
+.content {
+    background-color: #ffffff;
+    color: #333333;
+    width: 65%;
+}
+/* ----- FOOTER ----- */
+footer {
+    background-color: #17abb3;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
 }
