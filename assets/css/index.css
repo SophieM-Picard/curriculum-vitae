@@ -9,7 +9,7 @@
     /*RESET CSS*/
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 body {     
     background-color: #f5f5f5;
@@ -45,7 +45,6 @@ header {
 #picture:hover {
     cursor: zoom-in;
 }
-
 .container-infos {
     display: flex;
     flex-direction: column;
@@ -129,8 +128,8 @@ aside section:first-of-type ul li {
 }
 /* ----- 2EME SECTION ----- */
 aside section:nth-of-type(2) ul {
-    margin-top: 20px;
-    margin-bottom: 32px;
+    margin-top: 15px;
+    margin-bottom: 33px;
 }
 aside section:nth-of-type(2) ul li {
     line-height: 170%;
@@ -165,12 +164,13 @@ aside section:nth-of-type(3) ul li em {
 /* ----- 4EME SECTION ----- */
 aside section:last-of-type ul {
     margin-top: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 172px;
 }
 aside section:last-of-type ul li {
-    line-height: 150%;
+    line-height: 100%;
     position: relative;
     padding-left: 20px;
+    margin-top: 10px;
 }
 aside section:last-of-type ul li::before {
     content: '■';
@@ -210,11 +210,11 @@ aside section:last-of-type ul li small {
     margin-top: 22px;
 }
 .content section:first-of-type p strong {
-    font-weight: 500;
+    font-weight: 400;
 }
 /* ----- 2EME, 3EME, 4EME SECTION ----- */
 .content section:nth-of-type(2) ul{
-    margin-top: 15px;
+    margin-top: 13px;
     margin-bottom: 20px;
 }
 .content section:nth-of-type(2) ul li,
