@@ -142,6 +142,26 @@ aside section:nth-of-type(2) ul em {
 aside section:nth-of-type(2) ul span {
     float: right;
 }
+/* ----- 3EME SECTION ----- */
+aside section:nth-of-type(3) ul {
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+aside section:nth-of-type(3) ul li {
+    line-height: 150%;
+    position: relative;
+    padding-left: 20px;
+}
+aside section:nth-of-type(3) ul li::before {
+    content: '■';
+    color: #17abb3;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+}
+aside section:nth-of-type(3) ul li em {
+    font-style: normal;
+}
 /* ----- .CONTENT ----- */
 .content {
     background-color: #ffffff;
