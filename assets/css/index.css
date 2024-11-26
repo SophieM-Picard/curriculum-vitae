@@ -162,6 +162,30 @@ aside section:nth-of-type(3) ul li::before {
 aside section:nth-of-type(3) ul li em {
     font-style: normal;
 }
+/* ----- 4EME SECTION ----- */
+aside section:last-of-type ul {
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+aside section:last-of-type ul li {
+    line-height: 150%;
+    position: relative;
+    padding-left: 20px;
+}
+aside section:last-of-type ul li::before {
+    content: '■';
+    color: #17abb3;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+}
+aside section:last-of-type ul li em {
+    font-style: normal;
+}
+aside section:last-of-type ul li small {
+    display: block;
+    font-size: small;
+}
 /* ----- .CONTENT ----- */
 .content {
     background-color: #ffffff;
