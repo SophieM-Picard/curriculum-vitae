@@ -127,6 +127,21 @@ aside section:first-of-type ul {
 aside section:first-of-type ul li {
     line-height: 170%;
 }
+/* ----- 2EME SECTION ----- */
+aside section:nth-of-type(2) ul {
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+aside section:nth-of-type(2) ul li {
+    line-height: 170%;
+}
+aside section:nth-of-type(2) ul em {
+    font-style: normal;
+    font-weight: bold;
+}
+aside section:nth-of-type(2) ul span {
+    float: right;
+}
 /* ----- .CONTENT ----- */
 .content {
     background-color: #ffffff;
