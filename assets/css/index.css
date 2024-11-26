@@ -3,6 +3,10 @@
 
 /* ----- GLOBAL ----- */
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*RESET CSS*/
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 1rem;
     font-weight: 500;
