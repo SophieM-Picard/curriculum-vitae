@@ -26,3 +26,25 @@ h1, h2, h3 {
 strong {
     font-weight: 700;
 }
+/* ----- HEADER ----- */
+header {
+    background-color: #17abb3;
+    color: #ffffff;
+}
+/* ----- ASIDE ----- */
+aside {
+    background-color: rgba(23, 171, 179, 0.02);
+    color: #333333;
+    width: 30%;
+}
+/* ----- .CONTENT ----- */
+.content {
+    background-color: #ffffff;
+    color: #333333;
+    width: 70%;
+}
+/* ----- FOOTER ----- */
+footer {
+    background-color: #17abb3;
+    color: #ffffff;
+}
