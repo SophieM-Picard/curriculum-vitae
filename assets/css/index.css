@@ -206,6 +206,43 @@ aside section:last-of-type ul li small {
 .content section:first-of-type p strong {
     font-weight: 500;
 }
+/* ----- 2EME, 3EME, 4EME SECTION ----- */
+.content section:nth-of-type(2) ul{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.content section:nth-of-type(2) ul li,
+.content section:nth-of-type(3) ul li,
+.content section:nth-of-type(4) ul li {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    line-height: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content section:nth-of-type(2) ul small,
+.content section:nth-of-type(3) ul small, 
+.content section:nth-of-type(4) ul small {
+    display: block;
+    font-size: small;
+    font-style: italic;
+    order: 3;
+}
+.content section:nth-of-type(2) ul em, 
+.content section:nth-of-type(3) ul em, 
+.content section:nth-of-type(4) ul em {
+    text-align: right;
+    font-style: normal;
+    color: #17abb3;
+    font-weight: 400;
+}
+.content section:nth-of-type(3) ul {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.content section:nth-of-type(4) ul {
+    margin-top: 15px;
+}
 /* ----- FOOTER ----- */
 footer {
     background-color: #17abb3;
