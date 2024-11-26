@@ -191,6 +191,20 @@ aside section:last-of-type ul li small {
     background-color: #ffffff;
     color: #333333;
     width: 70%;
+    padding: 50px;
+}
+/* ----- 1ERE SECTION ----- */
+.content section:first-of-type {
+    margin-bottom: 65px;
+}
+.content section:first-of-type p {
+    text-indent: 4%;
+}
+.content section:first-of-type p:first-of-type {
+    margin-top: 22px;
+}
+.content section:first-of-type p strong {
+    font-weight: 500;
 }
 /* ----- FOOTER ----- */
 footer {
