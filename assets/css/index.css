@@ -30,6 +30,20 @@ strong {
 header {
     background-color: #17abb3;
     color: #ffffff;
+    max-height: 240px;
+    height: 100%;
+}
+#picture {
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    border: 5px solid #ffffff;
+    border-radius: 90px;
+    float: left;
+    margin: 45px 100px 45px 100px;
+}
+#picture:hover {
+    cursor: zoom-in;
 }
 /* ----- ASIDE ----- */
 aside {
