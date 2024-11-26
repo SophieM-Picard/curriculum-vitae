@@ -104,11 +104,28 @@ h3::after {
     height: 1px;
     background-color: rgba(51, 51, 51, 0.1);
 }
+main li {
+    list-style-type: none;
+}
 /* ----- ASIDE ----- */
 aside {
     background-color: rgba(23, 171, 179, 0.02);
     color: #333333;
     width: 30%;
+    padding: 50px;
+}
+/* ----- 1ERE SECTION ----- */
+aside section:first-of-type div {
+    float: right;
+    color: #17abb3;
+    font-size: 1.1rem;
+}
+aside section:first-of-type ul {
+    margin-top: 22px;
+    margin-bottom: 35px;
+}
+aside section:first-of-type ul li {
+    line-height: 170%;
 }
 /* ----- .CONTENT ----- */
 .content {
