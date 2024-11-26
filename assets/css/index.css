@@ -11,3 +11,18 @@
     font-size: 1rem;
     font-weight: 500;
 }
+body {     
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 1160px;
+    width: 100%;
+}
+h1, h2, h3 {
+    font-family: 'Lato', Arial, sans-serif;
+}
+strong {
+    font-weight: 700;
+}
