@@ -253,4 +253,20 @@ aside section:last-of-type ul li small {
 footer {
     background-color: #17abb3;
     color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    opacity: 0.8;
+}
+footer img {
+    width: 2%;
+    margin: 0 10px 7px 10px;
+}
+footer small {
+    font-size: small;
+    font-style: italic;
 }
