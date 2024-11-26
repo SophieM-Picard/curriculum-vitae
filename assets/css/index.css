@@ -45,6 +45,43 @@ header {
 #picture:hover {
     cursor: zoom-in;
 }
+
+.container-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+h1 {
+    font-size: 3.5rem;
+    margin-top: 4%;
+    font-weight: 550;
+}
+h2 {
+    font-size: 1.5rem;
+    line-height: 40px;
+    font-weight: 550;
+}
+.infos {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 20px 20px;
+    margin: 15px 0;
+    max-width: 250px;
+    width: 100%;
+    gap: 10px 35px;
+}
+.infos a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.infos img {
+    width: 14%;
+    margin-right: 7px;
+}
+.infos span {
+    font-style: normal;
+}
 /* ----- ASIDE ----- */
 aside {
     background-color: rgba(23, 171, 179, 0.02);
